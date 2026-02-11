@@ -1,0 +1,17 @@
+# Robots.txt for Rankomix
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+
+# Disallow private pages if any
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://rankomix.dev-set.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Request rate (optional)
+Request-rate: 30/60
